@@ -76,7 +76,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/lists.c">
+			<Option target="Question_1"/>
+		</Unit>
+		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/lists.h">
+			<Option target="Question_1"/>
+		</Unit>
 		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/main.c">
+			<Option target="Question_1"/>
+		</Unit>
+		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/students.c">
+			<Option target="Question_1"/>
+		</Unit>
+		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/students.h">
 			<Option target="Question_1"/>
 		</Unit>
 		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/CMakeLists.txt">

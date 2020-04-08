@@ -123,6 +123,33 @@ Question_1/fast:
 	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/build
 .PHONY : Question_1/fast
 
+lists.o: lists.c.o
+
+.PHONY : lists.o
+
+# target to build an object file
+lists.c.o:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/lists.c.o
+.PHONY : lists.c.o
+
+lists.i: lists.c.i
+
+.PHONY : lists.i
+
+# target to preprocess a source file
+lists.c.i:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/lists.c.i
+.PHONY : lists.c.i
+
+lists.s: lists.c.s
+
+.PHONY : lists.s
+
+# target to generate assembly for a file
+lists.c.s:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/lists.c.s
+.PHONY : lists.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -150,6 +177,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/main.c.s
 .PHONY : main.c.s
 
+students.o: students.c.o
+
+.PHONY : students.o
+
+# target to build an object file
+students.c.o:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/students.c.o
+.PHONY : students.c.o
+
+students.i: students.c.i
+
+.PHONY : students.i
+
+# target to preprocess a source file
+students.c.i:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/students.c.i
+.PHONY : students.c.i
+
+students.s: students.c.s
+
+.PHONY : students.s
+
+# target to generate assembly for a file
+students.c.s:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/students.c.s
+.PHONY : students.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Question_1"
+	@echo "... lists.o"
+	@echo "... lists.i"
+	@echo "... lists.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... students.o"
+	@echo "... students.i"
+	@echo "... students.s"
 .PHONY : help
 
 
