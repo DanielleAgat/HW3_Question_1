@@ -8,5 +8,6 @@ Student unScramble (List lst){
 }
 
 void printStudent(Student* std){
-//  TODO: Fill!!!!
+    printList(std->first);
+    printf("%d",std->grade);
 }

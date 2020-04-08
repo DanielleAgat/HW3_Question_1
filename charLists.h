@@ -24,6 +24,15 @@ void makeEmptyList(List* lst);
 void insertDataToEndList(List* lst,char ch);
 
 //TODO: Add description
-void freeList(List* lst);
+void freeList(List lst);
+
+//TODO: Add description
+void _free_list(ListNode* node);
+
+//TODO: Add description
+void printList(List lst);
+
+//TODO: Add description
+void _print_list(ListNode* node);
 
 #endif //QUESTION_1_CHARLISTS_H
