@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Question_1.dir/lists.c.o"
+  "CMakeFiles/Question_1.dir/charLists.c.o"
+  "CMakeFiles/Question_1.dir/errorsHandling.c.o"
   "CMakeFiles/Question_1.dir/main.c.o"
   "CMakeFiles/Question_1.dir/students.c.o"
   "Question_1"

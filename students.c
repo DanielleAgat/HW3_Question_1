@@ -2,6 +2,7 @@
 // Created by Agat Levi on 08/04/2020.
 //
 #include "students.h"
+#include <stdio.h>
 
 Student unScramble (List lst){
 //    TODO: Fill!!!!

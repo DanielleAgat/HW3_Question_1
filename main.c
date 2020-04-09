@@ -22,5 +22,5 @@ void main(){
 
     student = unScramble(lst);
     printStudent(&student);
-    freeList(&student.first);
+//    freeList(&student.first);
 }

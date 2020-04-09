@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/lists.c" "/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/cmake-build-debug/CMakeFiles/Question_1.dir/lists.c.o"
+  "/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/charLists.c" "/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/cmake-build-debug/CMakeFiles/Question_1.dir/charLists.c.o"
+  "/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/errorsHandling.c" "/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/cmake-build-debug/CMakeFiles/Question_1.dir/errorsHandling.c.o"
   "/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/main.c" "/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/cmake-build-debug/CMakeFiles/Question_1.dir/main.c.o"
   "/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/students.c" "/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/cmake-build-debug/CMakeFiles/Question_1.dir/students.c.o"
   )

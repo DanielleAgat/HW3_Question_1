@@ -123,32 +123,59 @@ Question_1/fast:
 	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/build
 .PHONY : Question_1/fast
 
-lists.o: lists.c.o
+charLists.o: charLists.c.o
 
-.PHONY : lists.o
+.PHONY : charLists.o
 
 # target to build an object file
-lists.c.o:
-	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/lists.c.o
-.PHONY : lists.c.o
+charLists.c.o:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/charLists.c.o
+.PHONY : charLists.c.o
 
-lists.i: lists.c.i
+charLists.i: charLists.c.i
 
-.PHONY : lists.i
+.PHONY : charLists.i
 
 # target to preprocess a source file
-lists.c.i:
-	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/lists.c.i
-.PHONY : lists.c.i
+charLists.c.i:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/charLists.c.i
+.PHONY : charLists.c.i
 
-lists.s: lists.c.s
+charLists.s: charLists.c.s
 
-.PHONY : lists.s
+.PHONY : charLists.s
 
 # target to generate assembly for a file
-lists.c.s:
-	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/lists.c.s
-.PHONY : lists.c.s
+charLists.c.s:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/charLists.c.s
+.PHONY : charLists.c.s
+
+errorsHandling.o: errorsHandling.c.o
+
+.PHONY : errorsHandling.o
+
+# target to build an object file
+errorsHandling.c.o:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/errorsHandling.c.o
+.PHONY : errorsHandling.c.o
+
+errorsHandling.i: errorsHandling.c.i
+
+.PHONY : errorsHandling.i
+
+# target to preprocess a source file
+errorsHandling.c.i:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/errorsHandling.c.i
+.PHONY : errorsHandling.c.i
+
+errorsHandling.s: errorsHandling.c.s
+
+.PHONY : errorsHandling.s
+
+# target to generate assembly for a file
+errorsHandling.c.s:
+	$(MAKE) -f CMakeFiles/Question_1.dir/build.make CMakeFiles/Question_1.dir/errorsHandling.c.s
+.PHONY : errorsHandling.c.s
 
 main.o: main.c.o
 
@@ -213,9 +240,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Question_1"
-	@echo "... lists.o"
-	@echo "... lists.i"
-	@echo "... lists.s"
+	@echo "... charLists.o"
+	@echo "... charLists.i"
+	@echo "... charLists.s"
+	@echo "... errorsHandling.o"
+	@echo "... errorsHandling.i"
+	@echo "... errorsHandling.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

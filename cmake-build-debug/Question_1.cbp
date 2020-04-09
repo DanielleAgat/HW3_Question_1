@@ -76,10 +76,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/lists.c">
+		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/charLists.c">
 			<Option target="Question_1"/>
 		</Unit>
-		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/lists.h">
+		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/charLists.h">
+			<Option target="Question_1"/>
+		</Unit>
+		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/errorsHandling.c">
+			<Option target="Question_1"/>
+		</Unit>
+		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/errorsHandling.h">
 			<Option target="Question_1"/>
 		</Unit>
 		<Unit filename="/Users/Agat/Desktop/לימודים/שנה א/סמסטר ב/תכנות מתקדם/מטלות/HW3/Question_1/main.c">

@@ -24,7 +24,13 @@ void makeEmptyList(List* lst);
 void insertDataToEndList(List* lst,char ch);
 
 //TODO: Add description
-void freeList(List lst);
+ListNode* createNode(char ch,ListNode* next);
+
+//TODO: Add descreiption
+void _insertNewNodeToEnd(List* lst, ListNode* newNode);
+
+//TODO: Add description
+void freeList(List* lst);
 
 //TODO: Add description
 void _free_list(ListNode* node);

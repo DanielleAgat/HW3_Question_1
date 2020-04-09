@@ -4,8 +4,6 @@
 
 #ifndef QUESTION_1_STUDENTS_H
 #define QUESTION_1_STUDENTS_H
-#include <stdlib.h>
-#include <stdio.h>
 #include "charLists.h"
 
 typedef struct  student

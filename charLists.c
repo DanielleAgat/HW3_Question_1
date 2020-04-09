@@ -5,17 +5,37 @@
 #include <stdio.h>
 #include "charLists.h"
 #include <stdlib.h>
+#include "errorsHandling.h"
 
 void makeEmptyList(List* lst){
-//    TODO: fill!!!
+    lst->head = lst->tail = NULL;
 }
 
-void insertDataToEndList(List* pLst,char ch){
-//  TODO: fill!!!!
+void insertDataToEndList(List* lst,char ch){
+    ListNode* newNode = createNode(ch,NULL);
+    _insertNewNodeToEnd(lst,newNode);
 }
 
-void freeList(List lst){
-    _free_list(lst.head);
+ListNode* createNode(char ch, ListNode* next){
+    ListNode* newNode = (ListNode*)malloc(sizeof(ListNode));
+    checkMemoryAllocation(newNode);
+    *(newNode->dataPtr) = ch;
+    newNode->next = next;
+    return newNode;
+}
+
+void _insertNewNodeToEnd(List* lst, ListNode* newNode){
+    newNode->next = NULL;
+    if(lst->tail == NULL) {
+        lst->tail = lst->head = newNode;
+    }else{
+        lst->tail->next = newNode;
+        lst->tail = newNode;
+    }
+}
+
+void freeList(List* lst){
+    _free_list(lst->head);
 }
 
 void _free_list(ListNode* node){
