@@ -39,8 +39,9 @@ void createStudent(List* lst,int* pGrade){
 }
 
 void printStudent(Student* std){
+    printf("Fisrt name: ");
     printList(std->first);
-    printf("%d",std->grade);
+    printf("\nGrade: %d",std->grade);
 }
 
 int parseInt(char num){
