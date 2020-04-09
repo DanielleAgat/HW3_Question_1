@@ -39,7 +39,7 @@ void createStudent(List* lst,int* pGrade){
 }
 
 void printStudent(Student* std){
-    printf("Fisrt name: ");
+    printf("First name: ");
     printList(std->first);
     printf("\nGrade: %d",std->grade);
 }
