@@ -1,6 +1,6 @@
-//
-// Created by Agat Levi on 08/04/2020.
-//
+//Student's name: Danielle Agat Levi
+//Student's ID: 313357329
+
 
 #ifndef QUESTION_1_ERRORSHANDLING_H
 #define QUESTION_1_ERRORSHANDLING_H

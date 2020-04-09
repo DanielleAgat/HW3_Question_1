@@ -1,6 +1,6 @@
-//
-// Created by Agat Levi on 08/04/2020.
-//
+//Student's name: Danielle Agat Levi
+//Student's ID: 313357329
+
 
 #include "errorsHandling.h"
 #include <stdio.h>
