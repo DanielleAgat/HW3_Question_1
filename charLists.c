@@ -19,6 +19,7 @@ void insertDataToEndList(List* lst,char ch){
 ListNode* createNode(char ch, ListNode* next){
     ListNode* newNode = (ListNode*)malloc(sizeof(ListNode));
     checkMemoryAllocation(newNode);
+    newNode->dataPtr = (char*)malloc(sizeof(char));
     *(newNode->dataPtr) = ch;
     newNode->next = next;
     return newNode;

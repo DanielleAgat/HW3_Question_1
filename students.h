@@ -6,8 +6,7 @@
 #define QUESTION_1_STUDENTS_H
 #include "charLists.h"
 
-typedef struct  student
-{
+typedef struct  student{
     List first;
     int grade;
 } Student;
@@ -15,6 +14,12 @@ typedef struct  student
 
 //TODO: Add description
 Student unScramble (List  lst);
+
+//TODO: Add description
+int getGrade(List lst);
+
+//TODO: Add description
+List getValidName(List scrambled);
 
 //TODO: Add description
 void printStudent(Student* std);

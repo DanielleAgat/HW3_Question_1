@@ -5,10 +5,21 @@
 #include <stdio.h>
 
 Student unScramble (List lst){
-//    TODO: Fill!!!!
+    Student std;
+    std.first = getValidName(lst);
+    std.grade = getGrade(lst);
+}
+
+int getGrade(List lst){
+//    TODO: Fill!!
+}
+
+List getValidName(List scrambled){
+// TODO: Fill!!!
 }
 
 void printStudent(Student* std){
     printList(std->first);
     printf("%d",std->grade);
 }
+
