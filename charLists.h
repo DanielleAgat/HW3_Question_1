@@ -17,28 +17,29 @@ typedef struct list
     ListNode* tail;
 }List;
 
-//TODO: Add description
+//This function creates a new (empty) list.
 void makeEmptyList(List* lst);
 
-//TODO: Add description
+//This function gets a char and creates a new node with the given char as its pointed data
+//Then it inserts it to the end of the list and sets it as the new tail.
 void insertDataToEndList(List* lst,char ch);
 
-//TODO: Add description
+//This function creates a new node, containing a given char as its pointed data.
 ListNode* createNode(char ch,ListNode* next);
 
-//TODO: Add descreiption
+//This function is an inner function, it creates a new node to list.
 void _insertNewNodeToEnd(List* lst, ListNode* newNode);
 
-//TODO: Add description
+//This function frees a given list's memory.
 void freeList(List* lst);
 
-//TODO: Add description
+//This function is an inner function, it frees a given node.
 void _free_list(ListNode* node);
 
-//TODO: Add description
+//This function prints a given list.
 void printList(List lst);
 
-//TODO: Add description
+//This function is an inner function. It prints a given node.
 void _print_list(ListNode* node);
 
 #endif //QUESTION_1_CHARLISTS_H

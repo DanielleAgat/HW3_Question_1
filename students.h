@@ -15,13 +15,13 @@ typedef struct  student{
 //This macro returns 'true' if the given char is a digit, 'false' otherwise.
 #define isNum(x) ((((x) <= '9') && ((x) >= '0')) ? (true) : (false))
 
-//TODO: Add description
+//This function gets a list of pointers to chars and creates a Student structure from it.
 Student unScramble (List  lst);
 
-//TODO: Add description
+//This function splits the alphabet chars and integers chars and set them to student's first name and it's grade.
 void createStudent(List* lst,int* pGrade);
 
-//TODO: Add description
+//This function prints a student's first name and grade.
 void printStudent(Student* std);
 
 //This function casts a char type integer into int type.
