@@ -2,8 +2,8 @@
 //Student's ID: 313357329
 
 
-#ifndef QUESTION_1_STUDENTS_H
-#define QUESTION_1_STUDENTS_H
+#ifndef STUDENTS_H
+#define STUDENTS_H
 #include "charLists.h"
 #include <stdbool.h>
 
@@ -27,4 +27,4 @@ void printStudent(Student* std);
 //This function casts a char type integer into int type.
 int parseInt(char ch);
 
-#endif //QUESTION_1_STUDENTS_H
+#endif

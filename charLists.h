@@ -2,8 +2,8 @@
 //Student's ID: 313357329
 
 
-#ifndef QUESTION_1_CHARLISTS_H
-#define QUESTION_1_CHARLISTS_H
+#ifndef CHARLISTS_H
+#define CHARLISTS_H
 
 typedef struct list_node
 {
@@ -42,4 +42,4 @@ void printList(List lst);
 //This function is an inner function. It prints a given node.
 void _print_list(ListNode* node);
 
-#endif //QUESTION_1_CHARLISTS_H
+#endif
