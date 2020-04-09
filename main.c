@@ -7,6 +7,7 @@
 
 #include <stdio.h>
 #include "students.h"
+#include "charLists.h"
 
 void main(){
     List lst;

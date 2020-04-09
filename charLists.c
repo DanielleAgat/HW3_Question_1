@@ -3,8 +3,8 @@
 
 
 #include <stdio.h>
-#include "charLists.h"
 #include <stdlib.h>
+#include "charLists.h"
 #include "errorsHandling.h"
 
 void makeEmptyList(List* lst){
